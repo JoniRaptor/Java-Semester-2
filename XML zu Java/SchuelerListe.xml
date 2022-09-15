@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schuelerListe>
+    <Schueler>
+        <jahrgang>1986</jahrgang>
+        <name>Wolfgang</name>
+        <nummer>11313</nummer>
+    </Schueler>
+    <Schueler>
+        <jahrgang>1922</jahrgang>
+        <name>Dieter</name>
+        <nummer>12342</nummer>
+    </Schueler>
+    <Schueler>
+        <jahrgang>2002</jahrgang>
+        <name>Herbert</name>
+        <nummer>34543</nummer>
+    </Schueler>
+</schuelerListe>
