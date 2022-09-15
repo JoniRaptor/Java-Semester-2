@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Bestellung">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Lieferadresse">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" />
+                            <xs:element name="Straße" type="xs:string" />
+                            <xs:element name="Ort" type="xs:string" />
+                            <xs:element name="PLZ" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="land" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Rechnungsadresse">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" />
+                            <xs:element name="Straße" type="xs:string" />
+                            <xs:element name="Ort" type="xs:string" />
+                            <xs:element name="PLZ" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="land" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Kommentar" type="xs:string" />
+                <xs:element name="Waren">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Buch" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Titel" type="xs:string" />
+                                        <xs:element name="Anzahl" type="xs:string" />
+                                        <xs:element name="PreisEUR" type="xs:string" />
+                                        <xs:element name="Kommentar" minOccurs="0" type="xs:string" />
+                                        <xs:element name="Lieferdatum" minOccurs="0" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="ISBN" type="xs:decimal" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="bestelldatum" type="xs:date" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

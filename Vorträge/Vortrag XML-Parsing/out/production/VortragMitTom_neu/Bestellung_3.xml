@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bestellung bestelldatum="2022-26-07">
+    <lieferadresse land="DE">
+        <name>Max Mustermann</name>
+        <straße>Karli 100</straße>
+        <stadt>Leipzig</stadt>
+        <plz>04275</plz>
+    </lieferadresse>
+    <rechnungsadresse land="DE">
+        <Name>Robert Schmid</Name>
+        <strasse>Haselussweg 3</strasse>
+        <stadt>Frankfurt/Main</stadt>
+        <plz>61240</plz>
+    </rechnungsadresse>
+    <kommentar>Bitte mit Geschenkverpakung!</kommentar>
+    <waren>
+        <buch ISBN="3776622148">
+            <title>Vom Glück der Faulheit. Lebensenergie richtig einteilen.</title>
+            <anzahl>1</anzahl>
+            <preisEUR>29.90</preisEUR>
+            <Kommentar>Bitte Liefertermin bis Weihnachten bestätigen.</Kommentar>
+        </buch>
+        <buch ISBN="3551551677">
+            <title>Harry Potter und der Stein der Weisen</title>
+            <anzahl>1</anzahl>
+            <preisEUR>29.90</preisEUR>
+            <lieferdatum>2033-04-29</lieferdatum>
+        </buch>
+    </waren>
+</Bestellung>
