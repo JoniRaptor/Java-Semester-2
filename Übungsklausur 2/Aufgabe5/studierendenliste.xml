@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<studListe>
+    <student>
+        <jahrgang>2020</jahrgang>
+        <nachname>Max</nachname>
+        <nummer>123</nummer>
+    </student>
+    <student>
+        <jahrgang>2020</jahrgang>
+        <nachname>Moritz</nachname>
+        <nummer>321</nummer>
+    </student>
+    <student>
+        <jahrgang>2021</jahrgang>
+        <nachname>Jonas</nachname>
+        <nummer>456</nummer>
+    </student>
+</studListe>
